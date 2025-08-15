@@ -31,9 +31,37 @@ function Title(){
         <p className='text-white text-[28px] font-bold' style={{fontFamily: '"Inria Sans", sans-serif'}}>CHAPTERS</p>
       </div>
     );
+
 }
 
+function Chapters(){
+    return(
+        <div className='flex w-full mt-[10px] justify-evenly'>
+          <div className='flex flex-col justify-center items-center gap-2'>
+            <p className='text-white text-[24px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>CHAPTER 1</p>
+            <img className='h-[295px] w-[206px]' src='/Chapter-1.png'></img>
+            <button className='hover:bg-[#271f04] transition-colors duration-200 h-[40px] w-[208px] mt-[12px] text-white cursor-pointer bg-[#21221C] rounded-[2px] text-[20px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>Start Reading</button>
+          </div>
+        <div className='flex flex-col justify-center items-center gap-2'>
+            <p className='text-white text-[24px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>CHAPTER 2</p>
+            <img className='h-[295px] w-[206px]' src='/Chapter-2.png'></img>
+            <button className='hover:bg-[#271f04] h-[40px] w-[208px] mt-[12px] text-white cursor-pointer bg-[#21221C] rounded-[2px] text-[20px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>Start Reading</button>
+          </div>
 
+        <div className='flex flex-col justify-center items-center gap-2'>
+            <p className='text-white text-[24px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>CHAPTER 3</p>
+            <img className='h-[295px] w-[206px]' src='/Chapter-3.png'></img>
+            <button className='hover:bg-[#271f04] h-[40px] w-[208px] mt-[12px] text-white cursor-pointer bg-[#21221C] rounded-[2px] text-[20px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>Start Reading</button>
+          </div>
+          
+        <div className='flex flex-col justify-center items-center gap-2'>
+            <p className='text-white text-[24px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>CHAPTER 4</p>
+            <img className='h-[295px] w-[206px]' src='/Chapter-4.png'></img>
+            <button className='hover:bg-[#271f04] h-[40px] w-[208px] mt-[12px] text-white cursor-pointer bg-[#21221C] rounded-[2px] text-[20px]' style={{fontFamily: '"Inria Sans", sans-serif'}}>Start Reading</button>
+          </div>
+        </div>
+    );
+}
 
 export default function Saga(){
     return(
@@ -41,6 +69,7 @@ export default function Saga(){
          <Image />
          <NavigationBar />
          <Title />
+         <Chapters />
         </div>
     );
 }
