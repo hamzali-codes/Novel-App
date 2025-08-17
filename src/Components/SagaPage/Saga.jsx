@@ -1,6 +1,6 @@
 function Image(){
     return(
-        <img src='/sword-image.png' className='fixed w-full h-screen object-cover z-[-1] overflow-hidden'></img>
+        <img src='/sword-image.png' className='fixed w-full h-screen object-cover z-[-1] overflow-hidden' />
     );
 }
 
@@ -8,7 +8,7 @@ function NavigationBar(){
    return( 
     
     <div className='gap-[16px] h-[10%] flex w-full lg:h-[13%] items-center lg:gap-[90px] bg-black text-white'>
-          <img className='h-[85px] w-[103px] ml-2 lg:h-[115px] lg:w-[130] mt-[31px] lg:ml-[30px] cursor-pointer' src='/logo.png'></img>
+          <img className='h-[85px] w-[103px] ml-2 lg:h-[115px] lg:w-[130px] mt-[31px] lg:ml-[30px] cursor-pointer' src='/logo.png'></img>
           <p className = 'text-[15px] lg:text-[18px] active:border-b-4 border-[#D4AF37] cursor-pointer hover:text-[#D4AF37] h-full flex items-center'style={{fontFamily: '"Inria Sans", sans-serif'}}>Saga</p>
           <p className = 'text-[15px] lg:text-[18px] active:border-b-4 border-[#D4AF37] cursor-pointer flex items-center h-full hover:text-[#D4AF37] transition-colors duration-200' style={{fontFamily: '"Inria Sans", sans-serif'}}>Characters</p>
           <p className = 'text-[15px] lg:text-[18px] active:border-b-4 border-[#D4AF37] cursor-pointer flex items-center h-full hover:text-[#D4AF37] transition-colors duration-200' style={{fontFamily: '"Inria Sans", sans-serif'}}>Quiz</p>
