@@ -46,8 +46,8 @@ function MyBook() {
     return (                                                           // we use translates through x axis because they are smoother.
         <div
       className={`transition-transform duration-700 ease-in-out   
-      ${position === "start" ? "translate-x-[-230px]" : ""}        
-      ${position === "end" ? "translate-x-[230px]" : ""} 
+      ${position === "start" ? "translate-x-[-240px]" : ""}        
+      ${position === "end" ? "translate-x-[240px]" : ""} 
       ${position === "middle" ? "translate-x-0" : ""}`}
     >
         <HTMLFlipBook ref={bookRef} showCover={true} width={500} height={550} maxHeight={550} minHeight={550} maxWidth={500} minWidth={500} size='stretch'  drawShadow={true}
